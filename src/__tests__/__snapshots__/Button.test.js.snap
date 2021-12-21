@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button compoenent testing Testing data change on button click 1`] = `
+Array [
+  <button
+    data-testId="btn1"
+    onClick={[Function]}
+    type="button"
+  >
+    Changed
+  </button>,
+  <button
+    data-testId="btn2"
+    type="button"
+  >
+    Click
+  </button>,
+]
+`;
+
+exports[`Button compoenent testing Testing for specific button 1`] = `
+Array [
+  <button
+    data-testId="btn1"
+    onClick={[Function]}
+    type="button"
+  >
+    Click
+  </button>,
+  <button
+    data-testId="btn2"
+    type="button"
+  >
+    Click
+  </button>,
+]
+`;
